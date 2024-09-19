@@ -1,7 +1,9 @@
-<h1>Medi-care</h1>h1>
+<h1>Medi-care</h1>
 A Medical Query RAG Application
 Overview
 This application is designed to answer medical queries using a Retrieval-Augmented Generation (RAG) approach. It leverages BioBERT for embeddings, a Qdrant vector database for storage, and FastAPI for the backend service. The user-friendly frontend is built using Bootstrap.
+
+
 
 Table of Contents
 Backend Overview
@@ -28,7 +30,7 @@ Configuration: Move configurable parameters to a configuration file or use comma
 Environment Variables: Load sensitive information from environment variables.
 Testing: Implement unit tests to validate the functionality of document loading and embedding generation.
 
-<h3>Retriever.py</h3>h3>
+<h3>Retriever.py</h3>
 FastAPI Initialization: Sets up CORS, templates, and static files.
 LLM Initialization: Initializes the LlamaCpp model for natural language processing.
 Qdrant Setup: Connects to a Qdrant instance and creates a collection if it doesn't exist.
