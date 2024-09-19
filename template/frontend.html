@@ -117,12 +117,7 @@
                 document.getElementById('userInput').value = ''; // Clear input field
             } catch (error) {
                 console.error('Error:', error);
-                document.getElementById('response').innerHTML = `
-    <p>Parkinson's disease, also known as paralysis agitans, is a common neurodegenerative ailment 
-    that causes tremor, inflexibility, and difficulty in standing, walking, balancing, and synchronizing one's motions. 
-    The idiopathic breakdown of dopamine-secreting cells in the substantia nigra, which is situated in the midbrain,
-    is deemed to be the main cause of Parkinson’s disease.</p>
-`;
+                document.getElementById('response').innerHTML = `<p>Error generating this query.</p>`;
 
             }
         });
