@@ -4,6 +4,10 @@ Overview
 This application is designed to answer medical queries using a Retrieval-Augmented Generation (RAG) approach. It leverages BioBERT for embeddings, a Qdrant vector database for storage, and FastAPI for the backend service. The user-friendly frontend is built using Bootstrap.
 
 
+https://github.com/user-attachments/assets/1012c027-1f9a-4525-bdfd-cc70a81f7d4f
+
+
+
 
 Table of Contents
 Backend Overview
