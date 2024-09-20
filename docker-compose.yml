@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"           # Map container's port 5000 to host's port 5000
+    volumes:
+      - .:/app                # Mount current directory to /app inside the container
+    environment:
+      FLASK_APP: RAG/main.py   # Point to your entry point
+      FLASK_RUN_HOST: 0.0.0.0  # Ensure Flask runs on all interfaces
